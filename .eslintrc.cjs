@@ -9,7 +9,6 @@ module.exports = defineConfig({
 		extraFileExtensions: ['.vue'],
 		ecmaVersion: 2018,
 		sourceType: 'module',
-		debugLevel: ['typescript'],
 		ecmaFeatures: {
 			jsx: true,
 		}
