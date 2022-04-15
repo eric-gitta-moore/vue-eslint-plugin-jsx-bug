@@ -1,5 +1,10 @@
 # Vue ESLint Plugin JSX Bug
 
+Install dependencies:
+```shell
+npm install
+```
+
 Running the app works as expected:
 
 ```shell
