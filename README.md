@@ -31,7 +31,7 @@ npm run lint:jsx
 
 ![parsing works](parsing-works.png)
 
-However, linting works after applying a very hacky patch to the TypeScript compiler:
+However, linting works after applying [a very hacky patch](https://github.com/leonzalion/vue-eslint-plugin-jsx-bug/blob/main/patches/typescript%2B4.6.3.patch) to the TypeScript compiler:
 
 ```shell
 npx patch-package
