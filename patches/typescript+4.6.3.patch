@@ -1,0 +1,12 @@
+diff --git a/node_modules/typescript/lib/typescript.js b/node_modules/typescript/lib/typescript.js
+index a852c86..d4a4c21 100644
+--- a/node_modules/typescript/lib/typescript.js
++++ b/node_modules/typescript/lib/typescript.js
+@@ -20433,6 +20433,7 @@ var ts;
+             case ".mts" /* Mts */:
+                 return 3 /* TS */;
+             case ".tsx" /* Tsx */:
++            case ".vue":
+                 return 4 /* TSX */;
+             case ".json" /* Json */:
+                 return 6 /* JSON */;
