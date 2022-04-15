@@ -8,7 +8,7 @@ npm install
 Running the app works as expected:
 
 ```shell
-npm dev
+npm run dev
 ```
 
 Output in the browser:
@@ -18,7 +18,7 @@ Output in the browser:
 But linting the project gives the following error:
 
 ```shell
-npm lint
+npm run lint
 ```
 
 ![parsing error](parsing-error.png)
@@ -26,7 +26,7 @@ npm lint
 Linting the equivalent code in a JSX file works fine:
 
 ```shell
-npm lint:jsx
+npm run lint:jsx
 ```
 
 ![parsing works](parsing-works.png)
