@@ -3,7 +3,7 @@
 Running the app works as expected:
 
 ```shell
-pnpm dev
+npm dev
 ```
 
 Output in the browser:
@@ -13,7 +13,7 @@ Output in the browser:
 But linting the project gives the following error:
 
 ```shell
-pnpm lint
+npm lint
 ```
 
 ![parsing error](parsing-error.png)
@@ -21,7 +21,7 @@ pnpm lint
 Linting the equivalent code in a JSX file works fine:
 
 ```shell
-pnpm lint:jsx
+npm lint:jsx
 ```
 
 ![parsing works](parsing-works.png)
