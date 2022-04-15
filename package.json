@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "lint": "eslint --fix src/app.vue",
-    "lint:tsx": "eslint --fix src/app.tsx",
+    "lint:jsx": "eslint --fix src/app.jsx",
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
