@@ -30,3 +30,14 @@ npm run lint:jsx
 ```
 
 ![parsing works](parsing-works.png)
+
+However, linting works after applying a very hacky patch to the TypeScript compiler:
+
+```shell
+npx patch-package
+num run lint
+```
+
+![parsing works patch](parsing-works-patch.png)
+
+
