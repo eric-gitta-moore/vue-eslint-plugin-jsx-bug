@@ -1,4 +1,4 @@
-<script setup lang="jsx">
+<script setup lang="tsx">
 const JsxElement = (
 	<div>
 		Rendered from JSX!

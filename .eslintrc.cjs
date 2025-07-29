@@ -1,16 +1,17 @@
-const path = require('path')
-const { defineConfig } = require('eslint-define-config');
+const path = require("path");
+const { defineConfig } = require("eslint-define-config");
 
 module.exports = defineConfig({
-	parser: 'vue-eslint-parser',
-	parserOptions: {
-		parser: '@typescript-eslint/parser',
-		project: path.resolve(__dirname, './tsconfig.json'),
-		extraFileExtensions: ['.vue'],
-		ecmaVersion: 2018,
-		sourceType: 'module',
-		ecmaFeatures: {
-			jsx: true,
-		}
-	},
+  root: true,
+  extends: ["plugin:vue/vue3-recommended"],
+  parser: "vue-eslint-parser",
+  parserOptions: {
+    parser: "@typescript-eslint/parser",
+    project: path.resolve(__dirname, "./tsconfig.json"),
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
+    },
+    extraFileExtensions: [".vue"],
+  },
 });
