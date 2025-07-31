@@ -18,7 +18,7 @@ Solution:
 
 > [consistent-type-exports](https://typescript-eslint.io/rules/consistent-type-exports/)
 > 
-> This rule requires type information to run, which comes with performance tradeoffs.
+> This rule requires **type information** to run, which comes with performance tradeoffs.
 ---
 
 
