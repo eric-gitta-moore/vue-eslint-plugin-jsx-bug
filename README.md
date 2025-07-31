@@ -2,6 +2,8 @@
 
 link https://github.com/microsoft/TypeScript/issues/60125
 
+link https://github.com/typescript-eslint/typescript-eslint/issues/9934
+
 link https://github.com/vuejs/eslint-plugin-vue/issues/2304
 
 link https://github.com/vuejs/vue-eslint-parser/issues/150
