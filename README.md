@@ -1,5 +1,7 @@
 # Vue ESLint Plugin JSX Bug
 
+link https://github.com/microsoft/TypeScript/issues/60125
+
 link https://github.com/vuejs/eslint-plugin-vue/issues/2304
 
 link https://github.com/vuejs/vue-eslint-parser/issues/150
