@@ -8,6 +8,16 @@ link https://github.com/vuejs/eslint-plugin-vue/issues/2304
 
 link https://github.com/vuejs/vue-eslint-parser/issues/150
 
+---
+
+For any friends who have found this, if you are using the `@typescript-eslint/consistent-type-exports` ESLint rule and it has caused the `<script lang='tsx' setup>` in Vue to fail to be linted and parsed, resulting in the error `error  Parsing error: '>' expected`,
+
+Solution:
+- If you continue to use the `consistent-type-exports` rule, please patch the `typescript` compiler with [typescript.patch](https://github.com/leondreamed-archives/vue-eslint-plugin-jsx-bug/blob/main/patches/typescript%2B4.6.3.patch).
+- If you only use `consistent-type-imports` and not `consistent-type-exports`, then please set `parserOptions.project` and `parserOptions.projectService` in `.eslintrc.js` to `false`.
+
+---
+
 
 Install dependencies:
 ```shell
