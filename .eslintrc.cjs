@@ -3,7 +3,7 @@ const { defineConfig } = require("eslint-define-config");
 
 module.exports = defineConfig({
   root: true,
-  extends: ["plugin:vue/vue3-recommended"],
+  extends: ["plugin:vue/recommended"],
   parser: "vue-eslint-parser",
   parserOptions: {
     parser: "@typescript-eslint/parser",
