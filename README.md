@@ -16,6 +16,9 @@ Solution:
 - If you continue to use the `consistent-type-exports` rule, please patch the `typescript` compiler with [typescript.patch](https://github.com/leondreamed-archives/vue-eslint-plugin-jsx-bug/blob/main/patches/typescript%2B4.6.3.patch).
 - If you only use `consistent-type-imports` and not `consistent-type-exports`, then please set `parserOptions.project` and `parserOptions.projectService` in `.eslintrc.js` to `false`.
 
+> [consistent-type-exports](https://typescript-eslint.io/rules/consistent-type-exports/)
+> 
+> This rule requires type information to run, which comes with performance tradeoffs.
 ---
 
 
