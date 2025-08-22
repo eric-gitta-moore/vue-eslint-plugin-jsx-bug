@@ -3,6 +3,10 @@
 </template>
 
 <script setup lang="ts">
+defineOptions({
+  name: "ChildComp",
+});
+
 defineEmits<{
   click: [params: { key: string }];
 }>();
