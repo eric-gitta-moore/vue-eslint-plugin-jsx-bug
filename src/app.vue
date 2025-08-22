@@ -1,11 +1,21 @@
 <script setup lang="tsx">
-const JsxElement = (
-	<div>
-		Rendered from JSX!
-	</div>
-)
+import Child from "./child.vue";
+
+defineOptions({
+  name: "App",
+});
+
+const onClick = (params: { key: string }): any => {
+  console.log(1, params.key);
+};
 </script>
 
 <template>
-	<JsxElement />
+  <Child
+    @click="
+      (params: { key: string }): any => {
+        console.log(1, params.key);
+      }
+    "
+  />
 </template>
